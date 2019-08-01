@@ -1,7 +1,7 @@
 # AulaNHibernate
-Este é um projeto muito simples com a finalidade de ensinar como configurar para uso o NHibernate. 
+Esse é um projeto muito simples com a finalidade de ensinar como configurar para uso o NHibernate. 
 Tive muita dificuldade quando estava começando a desenvolver com o NHibernate, problemas para entender os erros, a documentação e também 
-quase não encontrava pessoas que o utilizavam e que estivessem abertas a tirar minhas dúvidas. Hoje em dia encontro em muitos foruns 
+quase não encontrava pessoas que o utilizavam e que estivessem abertas a tirar minhas dúvidas. Hoje em dia encontro em muitos fóruns 
 pessoas com as mesmas dúvidas a quais já passei e por esse motivo fiz esse projeto muito simples e básico com a finalidade de ajudar 
 essas pessoas.
 
