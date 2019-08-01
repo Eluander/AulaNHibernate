@@ -25,4 +25,11 @@ do desenvolvimento. Vamos lá?!?!
 15 - Vamos fazer a configuração do NHibernate dentro do nosso projeto 'AprendendoNHibernate.Test' vamos instalar o pacote do 'FluentNHibernate'. { Install-Package FluentNHibernate -Version 2.1.2 }
 16 - Agora vamos fazer a instalar o pacore do 'Npgsql' para utilizarmos o banco de dados PostgreSQL. { Install-Package Npgsql -Version 4.0.8 }
 17 - FluentNHibernate aceita outros bancos, para mais detalhe consulte: https://medium.com/@fulviocanducci/fluentnhibernate-configura%C3%A7%C3%B5es-b%C3%A1sica-6afe4397da5f
-17 - Agora renomeie o arquivo .cs que foi gerado para 'PrimeiroMapeamento_Teste'. OBS.: Abra o arquivo para mais detalhes.
+18 - Agora renomeie o arquivo .cs que foi gerado para 'PrimeiroMapeamento_Teste'. OBS.: Abra o arquivo para mais detalhes.
+
+
+# Parte 2 Evoluindo os mapeamentos.
+Agora vamos criar mais duas Entidades ela serão Empresa e o EmpresaContato. Vamos lá?!?!
+
+19 - Dentro da pasta 'Entidades' vamos criar as duas novas classe chamada 'Empresa.cs' e a outra 'EmpresaContato.cs'.  OBS.: Abra os arquivos para mais detalhes.
+20 - Posteriormente vamos adicionar duas novas classes de mapeamento na pasta 'Mapeamentos' com os nomes: 'EmpresaMap.cs' e 'EmpresaContatoMap.cs'.  OBS.: Abra os arquivos para mais detalhes.

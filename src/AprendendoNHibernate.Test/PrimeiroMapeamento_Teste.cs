@@ -21,7 +21,7 @@ namespace AprendendoNHibernate.Test
             // Detalhe, assim não vamos criar a base de dados apenas manipular a base com nome 'NHibernate', então certifique-se de que a base estaja criada.
 
             _session = Fluently.Configure()
-               .Database(PostgreSQLConfiguration.PostgreSQL82.ConnectionString("User ID=postgres;Password=123456;Host=192.168.0.5;Port=5432;Database=NHibernate;"))
+               .Database(PostgreSQLConfiguration.PostgreSQL82.ConnectionString("User ID=postgres;Password=Fime2404;Host=192.168.0.156;Port=5432;Database=NHibernate;"))
                 .ExposeConfiguration(cfg => new SchemaUpdate(cfg).Execute(false, true)) // o parametro TRUE aqui ao lado, faz com que ele percorra todos os Mapeamentos criados no projeto 'Infra' e atualize a base de dados.
                 .Mappings(m => m.FluentMappings.AddFromAssemblyOf<PessoaMap>()) // Assim estou informando que quero usar o assembly onde este PessoaMap e mapear tudos que existem lá.
                 .BuildSessionFactory()? //Aqui possi obter a interface do ISessionFactory.
